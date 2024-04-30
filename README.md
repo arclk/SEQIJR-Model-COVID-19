@@ -1,7 +1,17 @@
 # SEQIJR Model Project for Studying the COVID-19 Epidemic
 
+![SEQIJR Model Diagram](images/seqijr_model_diagram.png)
+*Graphical scheme representing the interactions among different stages of infection in the proposed model.*
+
+
 ## Description
 This project is a NetLogo implementation of the SEQIJR (Susceptible, Exposed, Quarantined, Infected, Isolated, Removed) epidemiological model for studying the evolution of the COVID-19 epidemic. The model allows simulating the effect of various containment measures, such as lockdown, social distancing, mask usage, and contact tracing.
+
+![Simulation Results](images/simulation_results.png)
+*Susceptible, exposed, infected and recovered average curves with their respective variations in the simulations.*
+
+![Contact Tracing Graph](images/contact_tracing_graph.png)
+*Contact tracing graph of possible infections with a simulation of region lockdown.*
 
 ## Requirements
 - NetLogo 6.2.2 or later
@@ -19,6 +29,9 @@ This project is a NetLogo implementation of the SEQIJR (Susceptible, Exposed, Qu
 - `model.nlogo`: The main file containing the implementation of the SEQIJR model in NetLogo.
 - `visualize.nlogo`: An auxiliary model to visualize the graph of possible infections from the exported adjacency matrix.
 - `Report.pdf`: A detailed report describing the model, implementation, and experimental results.
+
+
+
 
 ## Credits
 This project was developed by Alberico Arcangelo for the Complex Systems and Network Science course at the University of Bologna.
